@@ -1,6 +1,6 @@
 import { formatDistanceToNow, parseISO } from 'date-fns';
 
-export const formatTimeAgo = (dateString) => {
+export const formatTimeAgo = (dateString: string) => {
     const isoDateString = dateString
         .replace(' ', 'T')
         .replace(/\s/g, '')
