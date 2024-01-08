@@ -3,6 +3,8 @@
     width: 100%;
     background-color: white;
     gap: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .input {
