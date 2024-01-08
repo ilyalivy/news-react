@@ -13,7 +13,7 @@ const Search = ({ keywords, setKeywords }: Props) => {
                 value={keywords}
                 onChange={(e) => setKeywords(e.target.value)}
                 className={styles.input}
-                placeholder="React"
+                placeholder="Javascript"
             />
         </div>
     );
